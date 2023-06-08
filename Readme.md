@@ -1,6 +1,6 @@
 # urltool
 
-A simple little utility that parses and prints URL components.
+A simple utility that parses and prints URL components.
 
 ## Usage
 
