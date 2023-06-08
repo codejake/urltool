@@ -4,11 +4,13 @@ BINARY_NAME=urltool
 build:
 	mkdir -p ./bin
 	
+	rm bin/*
+	
 	# macOS arm64
-	GOOS=darwin GOARCH=arm64 $(GOCMD) build -o ./bin/$(BINARY_NAME).arm64 .
+	GOOS=darwin GOARCH=arm64 $(GOCMD) build -o ./bin/$(BINARY_NAME).macos-arm64 .
 
 	# macOS amd64
-	GOOS=darwin GOARCH=amd64 $(GOCMD) build -o ./bin/$(BINARY_NAME).amd64 .
+	GOOS=darwin GOARCH=amd64 $(GOCMD) build -o ./bin/$(BINARY_NAME).macos-amd64 .
 
 	# Windows amd64
 	GOOS=windows GOARCH=amd64 $(GOCMD) build -o bin/$(BINARY_NAME).exe .
