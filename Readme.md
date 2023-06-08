@@ -7,3 +7,6 @@ A simple utility that parses and prints URL components.
 ```bash
 ./urltool "https://www.google.com/?id=foo#thing=bar"
 ```
+## TODO
+
+- Add JSON output as an option.
