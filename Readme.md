@@ -10,3 +10,4 @@ A simple utility that parses and prints URL components.
 ## TODO
 
 - Add JSON output as an option.
+- Print resolved IP addresses.
