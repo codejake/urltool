@@ -9,6 +9,6 @@ A simple utility that parses and prints URL components.
 ```
 ## TODO
 
--[ ] Add a defang option.
-- Add JSON output as an option.
-- Print resolved IP addresses.
+- [ ] Add a defang option.
+- [ ] Add JSON output as an option.
+- [ ] Print resolved IP addresses.
