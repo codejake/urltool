@@ -8,7 +8,12 @@ import (
 )
 
 func usage() {
+	fmt.Println("urltool v0.10")
+	fmt.Println("https://github.com/codejake/urltool")
+	fmt.Println("urltool is a simple program that parses out the elements of a URL.")
+	fmt.Println()
 	fmt.Println("usage: ", os.Args[0], " <url>")
+
 	os.Exit(1)
 }
 

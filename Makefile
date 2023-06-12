@@ -17,3 +17,6 @@ build:
 
 	# Linux amd64
 	GOOS=linux GOARCH=amd64 $(GOCMD) build -o bin/$(BINARY_NAME).linux .
+
+install:
+	cp ./bin/$(BINARY_NAME).macos-amd64 ~/bin/$(BINARY_NAME)
