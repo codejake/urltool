@@ -2,6 +2,8 @@
 
 A simple utility that parses, decodes, and prints URL components.
 
+I typically use it to quickly parse malicious URLs.
+
 ## Usage
 
 ```bash
